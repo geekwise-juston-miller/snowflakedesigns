@@ -5,6 +5,7 @@ html, body{
     height: auto;
     box-sizing: border-box;
     font-size: 62.5%;
+    background-color: #f42098;
     
 }
 
@@ -42,8 +43,44 @@ div{
     width: 100%;
     background-color: #ffffff;
     
+    
 }
 
 .header-container{
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    width: 120rem;
     background: none repeat scroll;
+    
+}
+
+.header-left{
+    margin: 1.5rem 0 0 8rem;
+    padding: 0;
+    width: 30rem;
+    float: left;
+    text-decoration: none;
+    
+}
+
+.header-right{
+    margin: 0;
+    padding: 0;
+    width: 50.25rem;
+    float: right;
+    
+}
+
+.links{
+    display: block;
+    margin: 10rem;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+    
+}
+
+.sb-b{
+    
 }
