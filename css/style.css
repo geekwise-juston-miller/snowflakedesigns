@@ -4,6 +4,8 @@ html, body{
     width: 100%;
     height: auto;
     box-sizing: border-box;
+    font-size: 62.5%;
+    
 }
 
 body{
@@ -12,6 +14,10 @@ body{
     width: 100%;
     height: auto;
     display: block;
+    font: 12px/1.55 Verdana, helvetica, sans-serif;
+    color: #818181;
+    text-align: center;
+    background-color: #ffffff;
 }
 
 header{
@@ -20,5 +26,24 @@ header{
     width: 100%;
     height: auto;
     display: block;
-    background-color: #57ea41;
+}
+
+div{
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    
+}
+
+/* main logo left of top nav bar */
+
+.headder-wrapper{
+    text-align: left;
+    width: 100%;
+    background-color: #ffffff;
+    
+}
+
+.header-container{
+    background: none repeat scroll;
 }
