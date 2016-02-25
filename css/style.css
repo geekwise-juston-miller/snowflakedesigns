@@ -136,16 +136,39 @@ a{
 }
 
 .nav-wrapper{
-    
+    background: none;
     margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 4.2rem;
+
+}
+
+.nav-container{
+    margin: 0 auto;
     padding: 0;
     height: 4.2rem;
     text-align: left;
-    width: 100%;
+    width: 120rem;
     background-color: #f42098;
     
 }
 
-.nav-container{
+.nav{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 4rem;
+    list-style: none;
+    display: block;
+    
+}
+
+.nav-bar{
+    margin-left: 0;
+    text-align: left;
+    float: left;
+    padding: 1.3rem 1.5rem;
+    
     
 }
