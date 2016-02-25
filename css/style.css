@@ -29,12 +29,7 @@ header{
     display: block;
 }
 
-div{
-    margin: 0 auto;
-    padding: 0;
-    display: block;
-    
-}
+
 
 /* main logo left of top nav bar */
 
@@ -59,7 +54,8 @@ div{
 .header-left{
     margin: 1.5rem 0 0;
     padding: 0;
-    width: 30%;
+    width: auto;
+    height: auto;
     float: left;
     text-decoration: none;
     
@@ -69,7 +65,8 @@ div{
     margin: 0 auto;
     padding: 0;
     float: right;
-    width: 70%;
+    width: auto;
+    height: auto;
     
 }
 
