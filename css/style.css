@@ -175,7 +175,19 @@ a{
     
 }
 
+/* responsive header desk top */
+
 @media only screen and (max-width: 1160px){
+
+    .nav-wrapper{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+    transform: translateY(20rem);     
+    }
+    
+    
     .right-bg{
         display: block;
         width: 100%;
@@ -196,7 +208,31 @@ a{
 }
 }
 
+/* responsive header tablet */
+
 @media only screen and (max-width: 930px){
+
+    .header-left{
+    margin: 1.5rem 0 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    height: 10%;
+    text-decoration: none;
+    
+   
+}
+    
+    .nav-wrapper{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+        
+    }
+    
+    
     .right-bg{
         display: block;
         width: 100%;
@@ -205,6 +241,7 @@ a{
         height: 4.2rem;
         background: #f42098;
         color: #ffffff;
+    
     }
    #nav-bar{
     margin: 0 auto;
@@ -213,21 +250,69 @@ a{
     list-style-type: none;
     font-size: 1.6rem;
     width: 100%;
-}
- .header-left{
-    margin: 1.5rem 0 0;
-    padding: 0;
-    width: 100%
-    float: left;
-    text-decoration: none;
-   
+    text-align: left;
 }
     .header-right{
     margin: 0 auto;
     padding: 0;
+    width: 100%;
+    height: auto;
     float: right;
-    width: 70%;
-    transform: translateY(20rem);
+    transform: translateY(15rem);
+}
+    
+}
+
+/* cell phone size */
+
+@media only screen and (max-width: 560px){
+
+    .header-left{
+    margin: 1.5rem 0 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    
+   
+}
+    
+    .nav-wrapper{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+        
+    }
+    
+    
+    .right-bg{
+        display: block;
+        width: 100%;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        height: 4.2rem;
+        background: #f42098;
+        color: #ffffff;
+    
+    }
+   #nav-bar{
+    margin: 0 auto;
+    float: left;
+    padding: 1.3rem 1.7rem;
+    list-style-type: none;
+    font-size: 1.6rem;
+    width: 100%;
+    text-align: left;
+}
+    .header-right{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    float: right;
+   transform: translateY(15rem);
 }
     
 }
